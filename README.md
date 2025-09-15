@@ -348,6 +348,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 <img width="405" height="134" alt="image" src="https://github.com/user-attachments/assets/7e1814eb-244a-491d-a70c-7614e79e159a" />
 
 
@@ -362,6 +363,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="407" height="178" alt="image" src="https://github.com/user-attachments/assets/2b29c83b-80c6-40a9-8e89-f4e36797a013" />
 
 
 cat > file22
@@ -375,13 +377,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="359" height="180" alt="image" src="https://github.com/user-attachments/assets/82e1d7dc-5250-46b8-bcca-14a343bfebb4" />
 
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
- ## OUTPUT
+## OUTPUT
+<img width="456" height="256" alt="image" src="https://github.com/user-attachments/assets/8d732a09-6de8-4c55-ac4b-eaf1771d6a08" />
 
 cat < urllist.txt
 ```
@@ -398,17 +402,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="385" height="123" alt="image" src="https://github.com/user-attachments/assets/3b290cfa-9212-4640-9091-8870a6bdcd35" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="523" height="133" alt="image" src="https://github.com/user-attachments/assets/f813f7af-e102-4f89-8e75-bbb88f84df96" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="332" height="434" alt="image" src="https://github.com/user-attachments/assets/93730744-d713-4142-b37d-127e95ab969c" />
 
 
 mkdir backupdir
@@ -419,18 +426,22 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="691" height="608" alt="image" src="https://github.com/user-attachments/assets/df0a951b-2f55-43fb-8b41-24258f1131e6" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="432" height="426" alt="image" src="https://github.com/user-attachments/assets/39743891-955c-427f-a49a-0d7e1862f22a" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+<img width="576" height="129" alt="image" src="https://github.com/user-attachments/assets/3653ce6f-f34e-4145-8986-9fa8848065c5" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="466" height="58" alt="image" src="https://github.com/user-attachments/assets/fa888656-020e-4f61-9735-5b11cf68d176" />
 
  
 # Shell Script
