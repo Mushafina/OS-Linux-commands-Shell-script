@@ -1070,8 +1070,9 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
- ./funcex.sh 1 2
+./funcex.sh 
+./funcex.sh 1 2
+ 
 <img width="385" height="198" alt="image" src="https://github.com/user-attachments/assets/3a84e6db-2184-4e64-ac4c-7f75d6aa64db" />
 
  
@@ -1087,6 +1088,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
 <img width="360" height="181" alt="image" src="https://github.com/user-attachments/assets/9b897422-0898-4ea7-ad67-2dd71ecbc7d4" />
 
  cat argshift1.sh
@@ -1105,6 +1107,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
 <img width="383" height="184" alt="image" src="https://github.com/user-attachments/assets/26ba670a-294a-4e5b-ac17-bb95f3dfece6" />
 
 cat argshift.sh
@@ -1118,7 +1121,8 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+./argshift.sh 1 2 3
+ 
  <img width="490" height="407" alt="image" src="https://github.com/user-attachments/assets/18b1c496-d496-42b2-9bb6-b47d63559c72" />
 
  
